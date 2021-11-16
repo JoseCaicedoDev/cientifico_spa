@@ -1,0 +1,31 @@
+{
+  "name": "singlepage",
+  "version": "1.0.0",
+  "description": "single page application - SPA",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseCaicedoDev/cientifico_spa.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Jcaicedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseCaicedoDev/cientifico_spa/issues"
+  },
+  "homepage": "https://github.com/JoseCaicedoDev/cientifico_spa#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
